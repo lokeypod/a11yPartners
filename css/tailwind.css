@@ -8,3 +8,7 @@
     @apply dark:bg-trueGray-900;
   }
 }
+
+@tailwind .blue-text {
+  color: #351deb;
+}
