@@ -15,10 +15,10 @@ export const Navbar = () => {
           <span className="flex items-center space-x-2 text-2xl font-medium text-blue-800 dark:text-gray-100">
             <span>
               <Image
-                src="/img/aac_logo.png"
-                width="109"
+                src="/img/a11y_Partners_logo.svg"
+                width="400"
                 alt="N"
-                height="59"
+                height="150"
                 className="w-50"
               />
             </span>
