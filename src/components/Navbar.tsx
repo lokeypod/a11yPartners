@@ -16,11 +16,11 @@ export const Navbar = () => {
               <Image
                 src="/img/a11y_Partners_logo.svg"
                 width="400"
-                alt="N"
+                alt="a11y partners logo"
                 height="150"
                 className="w-50"
               />
-            </span> 
+            </span>
           </span>
         </Link>
         <Disclosure>
