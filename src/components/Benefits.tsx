@@ -47,7 +47,7 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
                 {data.title}
               </h3>
 
-              <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
+              <p className="max-w-2xl py-4 text-lg leading-normal text-black lg:text-xl xl:text-xl dark:text-gray-300">
                 {data.desc}
               </p>
             </div>
@@ -77,7 +77,7 @@ function Benefit(props: any) {
           <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
             {props.title}
           </h4>
-          <p className="mt-1 text-gray-500 dark:text-gray-400">
+          <p className="mt-1 text-black dark:text-gray-400">
             {props.children}
           </p>
         </div>

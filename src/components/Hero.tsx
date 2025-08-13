@@ -13,7 +13,7 @@ export const Hero = () => {
               <span className="text-blue-800">Accessibility</span> <br />
               Partners
             </h1>
-            <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+            <p className="py-5 text-xl leading-normal text-black lg:text-xl xl:text-2xl dark:text-gray-300">
               We specialize in helping companies make their websites accessible
               to <strong>all</strong> users, including those with disabilities.
               We provide expert assessments and solutions to ensure compliance
