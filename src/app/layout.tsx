@@ -9,8 +9,8 @@ import { PopupWidget } from "@/components/PopupWidget";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "a11y Partners Digital Accessibility Consultants",
-  description: "Digital Accessibility Consultants",
+  title: "a11y Partners Digital Accessibility Consultant",
+  description: "Digital Accessibility Consultant",
 };
 
 export default function RootLayout({
