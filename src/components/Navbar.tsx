@@ -4,8 +4,6 @@ import Image from "next/image";
 import { Disclosure } from "@headlessui/react";
 
 export const Navbar = () => {
-  const navigation = ["contact"];
-
   return (
     <div className="w-full">
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-1">
@@ -15,10 +13,9 @@ export const Navbar = () => {
             <span>
               <Image
                 src="/img/a11y_Partners_logo.svg"
-                width="400"
+                width="300"
                 alt="a11y partners logo"
-                height="150"
-                className="w-50"
+                height="50"
               />
             </span>
           </span>

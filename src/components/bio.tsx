@@ -6,8 +6,8 @@ import bioImg from "../../public/img/mike.png";
 
 export const Bio = () => {
   return (
-    <div className="grid grid-cols-7">
-      <div className="col-span-1 p-px">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="col-span-1 md:grid-cols-2  p-px">
         <Image src={bioImg} alt="Description of image" width={150} />
       </div>
       <div className="col-span-6">
@@ -30,7 +30,7 @@ export const Bio = () => {
         </p>
         <p className="pt-5">
           <a
-            href="mailto:mike@a11ypartners.com"
+            href="mailto:mike@a11ypartners.com?subject=a11y Partners website query"
             className="underline text-blue-500"
           >
             Email Mike Armstrong
