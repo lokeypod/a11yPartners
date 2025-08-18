@@ -15,11 +15,10 @@ export const Hero = () => {
               Solutions
             </h1>
             <p className="pr-6 text-xl leading-normal text-black lg:text-xl xl:text-2xl dark:text-gray-300">
-              I specialize in helping companies and individuals make their
-              websites and documents accessible to <strong>all</strong> users,
-              including those with disabilities. I provide expert assessments
-              and solutions to ensure compliance with accessibility standards
-              such as WCAG, ADA, and EAA.
+              Helping organizations make their websites and documents accessible
+              to all users – including those with disabilities. Providing expert
+              assessments and solutions to ensure compliance with accessibility
+              guidelines including WCAG, ADA, and EAA.
             </p>
           </div>
         </div>

@@ -31,7 +31,7 @@ export const Bio = () => {
         <p className="pt-5">
           <a
             href="mailto:mike@a11ypartners.com?subject=a11y Partners website query"
-            className="underline text-blue-500"
+            // className="underline text-blue-500"
           >
             Email Mike Armstrong
           </a>
