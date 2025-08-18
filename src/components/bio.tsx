@@ -11,7 +11,7 @@ export const Bio = () => {
         <Image src={bioImg} alt="Description of image" width={150} />
       </div>
       <div className="col-span-6">
-        <h2 className="font-bold">Mike Armstrong</h2>
+        <h2 className="font-bold">Mike Armstrong, CPACC</h2>
         <p>
           My passion for digital accessibility began during my time at
           advertising agencies, where I realized that many of our clients were
