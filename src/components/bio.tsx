@@ -23,8 +23,9 @@ export const Bio = () => {
           efficient plan to reach your accessibilty goals.
         </p>
         <p className="pt-5">
-          Drop me a line and find out how I can partner with you and your
-          business to build a more accessible world.
+          Drop me a line (see the contact widget in the lower right-hand corner)
+          and find out how I can partner with you and your business to build a
+          more accessible world.
         </p>
       </div>
     </div>
