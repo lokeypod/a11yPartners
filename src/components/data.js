@@ -11,10 +11,13 @@ import {
   LinkIcon,
 } from "@heroicons/react/24/solid";
 
+import benefitOneImg from "../../public/img/benefit-one.png";
+import benefitTwoImg from "../../public/img/benefit-two.png";
+
 const benefitOne = {
   title: "Services",
   desc: "From audits and compliance assessments to hands-on remediation and training, my services are designed to ensure your websites, apps, and digital documents are accessible to everyone. Whether you're starting from scratch or improving existing platforms, I bring expert insight and practical solutions that make accessibility a seamless part of your digital strategy.",
-  // image: benefitTwoImg,
+  image: benefitTwoImg,
   bullets: [
     {
       title: "Website Auditing",
@@ -42,7 +45,7 @@ const benefitOne = {
 const benefitTwo = {
   title: "Advantages of Digital Accessibility",
   desc: "Making your website and documents accessible is crucial for inclusivity and can significantly improve your company's reach, SEO, public image, and overall user experience.",
-  // image: benefitTwoImg,
+  image: benefitTwoImg,
   bullets: [
     {
       title: "Inclusivity and Equal Access",
