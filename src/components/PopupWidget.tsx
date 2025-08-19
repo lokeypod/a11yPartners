@@ -120,9 +120,7 @@ export function PopupWidget() {
               <DisclosurePanel className=" flex flex-col  overflow-hidden left-0 h-full w-full sm:w-[350px] min-h-[250px] sm:h-[600px] border border-gray-300 dark:border-gray-800 bg-white shadow-2xl rounded-md sm:max-h-[calc(100vh-120px)]">
                 <div className="flex flex-col items-center justify-center h-32 p-5 bg-indigo-600">
                   <h3 className="text-lg text-white">How can I help?</h3>
-                  <p className="text-white opacity-50">
-                    I usually respond in a few hours
-                  </p>
+                  <p className="text-white opacity-50">I will respond asap</p>
                 </div>
                 <div className="flex-grow h-full p-6 overflow-auto bg-gray-50 ">
                   {!isSubmitSuccessful && (
@@ -134,7 +132,7 @@ export function PopupWidget() {
                       />
                       <input
                         type="hidden"
-                        value={`${userName} sent a message from Nextly`}
+                        value={`${userName} sent a message from a11y Partners`}
                         {...register("subject")}
                       />
                       <input
@@ -303,9 +301,7 @@ export function PopupWidget() {
                           strokeWidth="3"
                         />
                       </svg>
-                      <h3 className="py-5 text-xl text-green-500">
-                        Message sent successfully
-                      </h3>
+                      <h3 className="py-5 text-xl text-green-500">Thank You</h3>
                       <p className="text-gray-700 md:px-3">{Message}</p>
                       <button
                         className="mt-6 text-indigo-600 focus:outline-none"
