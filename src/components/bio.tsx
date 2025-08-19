@@ -6,7 +6,7 @@ import bioImg from "../../public/img/mike.png";
 
 export const Bio = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-red-50 p-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       <div className="col-span-1 md:grid-cols-2  p-px">
         <Image src={bioImg} alt="Description of image" width={150} />
       </div>
