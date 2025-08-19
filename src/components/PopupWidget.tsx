@@ -137,7 +137,7 @@ export function PopupWidget() {
                       />
                       <input
                         type="hidden"
-                        value="Nextly Template"
+                        value="a11y website query"
                         {...register("from_name")}
                       />
                       <input
