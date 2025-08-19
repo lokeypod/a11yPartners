@@ -6,35 +6,25 @@ import bioImg from "../../public/img/mike.png";
 
 export const Bio = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-red-50">
       <div className="col-span-1 md:grid-cols-2  p-px">
         <Image src={bioImg} alt="Description of image" width={150} />
       </div>
       <div className="col-span-6">
         <h2 className="font-bold">Mike Armstrong, CPACC</h2>
         <p>
-          My passion for digital accessibility began during my time at
-          advertising agencies, where I realized that many of our clients were
-          overlooking a significant group of potential customers by creating
-          inaccessible websites and applications. I carried this interest
-          forward at Allstate Insurance, where I helped define production
-          workflows, audit processes, and remediation strategies to ensure
-          compliance with WCAG 2.1 AA guidelines. Most recently, at the
-          University of Illinois Chicago (UIC), where I served as Senior
-          Accessibility Specialist, I deepened my expertise in document auditing
-          and remediation.
+          As a colorblind individual with over 20 years experience in
+          technology, I have a unique perspective on UX, production and
+          remediation strategies and tactics to meet accessibility guidelines. I
+          obtained my Certified Professional in Accessibility Core Competencies
+          (CPACC) in late 2023 and have audited and/or remediated hundreds of
+          digital assets. I am a strong advocate for a shift-left approach in
+          accessible product development, and can help you and your team
+          formulate an efficient plan to reach your accessibilty goals.
         </p>
         <p className="pt-5">
           Drop me a line and find out how I can partner with you and your
           business to build a more accessible world.
-        </p>
-        <p className="pt-5">
-          <a
-            href="mailto:mike@a11ypartners.com?subject=a11y Partners website query"
-            // className="underline text-blue-500"
-          >
-            Email Mike Armstrong
-          </a>
         </p>
       </div>
     </div>
