@@ -9,6 +9,7 @@ import {
   ShieldCheckIcon,
   MagnifyingGlassIcon,
   LinkIcon,
+  BriefcaseIcon,
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../../public/img/benefit-one.png";
@@ -37,7 +38,7 @@ const benefitOne = {
     {
       title: "Third Party Platform Evaluation",
       desc: "VPAT analysis, audits and product remediation recommendations",
-      icon: <Square2StackIcon />,
+      icon: <BriefcaseIcon />,
     },
     {
       title: "Ongoing Support",
