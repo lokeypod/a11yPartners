@@ -35,6 +35,11 @@ const benefitOne = {
       icon: <Square2StackIcon />,
     },
     {
+      title: "Third Party Platform Evaluation",
+      desc: "VPAT analysis, audits and product remediation recommendations",
+      icon: <Square2StackIcon />,
+    },
+    {
       title: "Ongoing Support",
       desc: "Continuous monitoring, audits and remediation",
       icon: <LinkIcon />,
